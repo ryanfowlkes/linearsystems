@@ -1,0 +1,188 @@
+@import '_variables';
+
+body {
+  background-image: url('./../../../background.png');
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-size: 10pt;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  color: lighten($buttonColor, .5);
+}
+
+.rolf {
+  color: $buttonColor;
+}
+
+.beta {
+  color: lightgray;
+}
+
+#root {
+  // font-family: 'Open Sans';
+  // height: 100%;
+  // width: 100%;
+  // position: fixed;
+}
+
+.system-pad {
+  position: relative;
+  display: block;
+  font-family: 'Open Sans';
+  background-color: white;
+  height: 80%;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  border: 1px solid $bordercolor;
+}
+
+#eq-form {
+  font-family: 'Open Sans';
+  margin: 0 auto;
+  position: relative;
+  top: 5px;
+  width: 60%;
+  height: 20px;
+  border: 1px solid $bordercolor;
+  border-radius: 3px;
+}
+
+#eq-input {
+  font-family: 'Open Sans';
+  outline: none;
+  display: inline-block;
+  padding-left: 10px;
+  height: 100%;
+  width: 80%;
+  border: 0px;
+}
+
+#eq-submit-button {
+  font-family: 'Open Sans';
+  color: white;
+  display: inline-block;
+  outline: none;
+  background-color: $buttonColor;
+  position: relative;
+  height: 100%;
+  width: 20%;
+  border: 0px;
+}
+
+// #system-display {
+//   font-family: 'Open Sans';
+//   text-align: center;
+//   position: absolute;
+//   bottom: 30px;
+//   width: 100%;
+//   border: 0px;
+// }
+
+#Container {
+  font-family: 'Open Sans';
+  position: relative;
+  display: block;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin-top: 20%;
+  border: 0px;
+}
+
+#solve-button {
+  font-family: 'Open Sans';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 20px;
+  border: 0px;
+  outline: none;
+  color: white;
+  background-color: $buttonColor;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+#edit-button {
+  font-family: 'Open Sans';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 20px;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -25px;
+  border: 0px;
+  outline: none;
+  color: white;
+  background-color: $buttonColor;
+}
+
+#arrow {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.edit-display {
+  font-family: 'Open Sans';
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border: 0px;
+}
+
+
+
+.solved-display {
+  font-family: 'Open Sans';
+  display: inline-block;
+  text-align: center;
+  border: 0px;
+}
+
+.img-plus-eqs {
+  display: inline-block;
+  border: 0px;
+  vertical-align: middle;
+  height: auto;
+}
+
+.eq-button {
+  font-family: 'Open Sans';
+  font-size: 10px;
+  display: block;
+  height: 15px;
+  background-color: white;
+  outline: none;
+  border: 0px;
+}
+
+#brace {
+  position: relative;
+  display: inline-block;
+  border: 0px;
+}
+
+#eq-holder {
+  position: relative;
+  display: inline-block;
+  height: auto;
+  top: -6px;
+  border: 0px;
+}
